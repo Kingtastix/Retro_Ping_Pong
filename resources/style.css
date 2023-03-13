@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: beige;
+}
+
+.title{
+    text-align: center;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+}
+
+#canvas{
+    width: 50%;
+    overflow-x: hidden;
+    border: 3px solid beige;
+}
+
+#score{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
